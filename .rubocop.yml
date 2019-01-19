@@ -36,14 +36,14 @@ Naming/PredicateName:
     - is_
 Style/Copyright:
  Enabled: false
-Lint/EndAlignment:
-  EnforcedStyleAlignWith: variable
 Style/RescueModifier:
   Enabled: false
 Metrics/AbcSize:
   Exclude:
     - 'db/migrate/*'
   Max: 40
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
 Layout/AlignHash:
   EnforcedHashRocketStyle: key
   EnforcedColonStyle: key
